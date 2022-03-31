@@ -7,7 +7,7 @@
 const head = {
     "Access-Control-Allow-Methods": "OPTIONS,GET,POST",
     'Accept': "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
-    'Access-Control-Allow-Origin': 'null',
+    'Access-Control-Allow-Origin': '*',
     'Origin': "http://localhost"
 };
 
