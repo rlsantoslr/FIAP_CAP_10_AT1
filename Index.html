@@ -1,0 +1,232 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Renato Santos">
+    <meta name="generator" content="Renato 1.0">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <title>Veller - Planejando Experiências</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="libs/locale/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/place-search-js/v1.0.0/place-search.css" />
+    <meta name="theme-color" content="#18a0fb">
+</head>
+<body class="body-main">
+    <div class="bg">
+    </div>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top ">
+            <div class="container-fluid">
+                <a class="navbar-brand mt-n2" href="#">
+                    <img src="images/veller_logo.svg" alt="" width="80" height="30" class="d-inline-block align-text-top">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn btn-sm btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#menu-sidebar" aria-expanded="false" aria-controls="menu-sidebar"><i class="bi bi-list"></i></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="carousel-myplans" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-myplans" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel-myplans" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel-myplans" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carousel-myplans" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <h4 class="carousel-title">
+                Meus Planos
+            </h4>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="https://curtamais.com.br/uploads/conteudos/11267f87bf257f7c0a5f9d5c481b1dd5.jpg" class="d-block w-100" alt="Caldas Novas - HotPark">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Férias da Empresa</h5>
+                        <p>Você recebeu 5 cotações de agências para esse plano de viagem </p>
+                        <a class="btn btn-xs btn-primary">Comparar Ofertas</a>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="https://estacaofloresta.com.br/wp-content/uploads/2017/12/petar.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Final de Semana</h5>
+                        <p>Você recebeu 1 cotação para esse plano de viagem </p>
+                        <a class="btn btn-xs btn-primary">Comparar Ofertas</a>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                    <img src="https://prefeitura.rio/wp-content/uploads/2020/01/reveillon_cristo_fmaia_95-scaled.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>
+                            Viagem de Réveillon
+                        </h5>
+                        <p>Você recebeu 11 cotações para esse plano de viagem </p>
+                        <a class="btn btn-xs btn-primary">Comparar Ofertas</a>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="40000">
+                    <img src="https://claudia.abril.com.br/wp-content/uploads/2020/01/orla-principal-1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>
+                            Lua de Mel
+                        </h5>
+                        <p>Você recebeu 2 cotações para esse plano de viagem </p>
+                        <a class="btn btn-xs btn-primary">Comparar Ofertas</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-myplans" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-myplans" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="container marketing p-md-5">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-3">
+                    <h3 class="fw-bold"><i class="bi bi-people text-primary"></i> Compartilhando Experiências</h3>
+                    <br />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 text-center">
+                    <img src="https://celebridadesup.com/wp-content/uploads/2018/09/Biografia-do-Le%CC%81o-Lins.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140" />
+                    <h2>3º - Léo Lins</h2>
+                    <p>Nesse planejamento de viagem está todo itinerário que cumpri na minha viagem de ida ao Japão, tive a oportunidade de conhecer diversos pontos turísticos e muitos mais</p>
+                    <p><a class="btn btn-secondary" href="#">Conhecer</a></p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <img src="https://static1.purepeople.com.br/articles/9/28/55/59/@/3242350-bruna-marquezine-viaja-para-orlando-nos-624x600-1.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140" />
+                    <h2>1º - Bruna Marquezine</h2>
+                    <p>A atriz fez uma viagem relampago para a Grécia e compartilhou o seu plano de viagem</p>
+                    <p><a class="btn btn-secondary" href="#">Conhecer</a></p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <img src="https://uploads.metropoles.com/wp-content/uploads/2021/05/07221318/Neymar-PSG-6.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140" />
+
+                    <h2>2º - Neymar</h2>
+                    <p>Conheça as principais pontos turistícos que o jogador frequenta nas noitadas em París.</p>
+                    <p><a class="btn btn-secondary" href="#">Conhecer</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div id="carousel-promotional" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-promotional" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel-promotional" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel-promotional" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <h4 class="carousel-title">
+                Promoções
+            </h4>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="https://cbrasilturismo.com.br/wp-content/uploads/2018/07/trip_beachpark_001-scaled.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Beach Park</h5>
+                        <p>Conheça um dos maiores parques aquáticos do Brasil localizado em Fortaleza, o pacote ideal com tudo incluso oferecido pela CVC  </p>
+                        <a class="btn btn-xs btn-primary">Visitar</a>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="https://editorial.uefa.com/resources/0246-0e98e0b96aae-10e5233c25c8-1000/ucl_branding.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Pacote Champions League</h5>
+                        <p>A Decolar montou o melhor pacote de viagem para que você possa sentir na pele a experiência de estar no estádio para assistir a final da Champions </p>
+                        <a class="btn btn-xs btn-primary">Visitar</a>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                    <img src="https://www.melhoresdestinos.com.br/wp-content/uploads/2020/08/novo-castelo-cinderela-disney-capa2019.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>
+                            Disney World
+                        </h5>
+                        <p>Walt Disney World Resort é o resort de entretenimento mais visitado em todo o mundo, situado em Bay Lake, Flórida, próxima a cidade de Orlando e o plano foi oferecido por CVC </p>
+                        <a class="btn btn-xs btn-primary">Visitar</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-promotional" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-promotional" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="container marketing p-md-5">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-3">
+                    <h3 class="fw-bold"><i class="bi bi-star-fill text-warning"></i> Em Alta</h3>
+                    <br />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 text-center">
+                    <img src="https://www.goyatravel.com.br/wp-content/uploads/2020/03/Istambul-scaled.jpg" class="bd-placeholder-img rounded border-2 border-white" width="140" height="140" />
+                    <h2>3º - Istambul</h2>
+                    <p>Istambul é uma grande cidade da Turquia que se divide entre a Europa e a Ásia, às margens do estreito do Bósforo. A Cidade Velha reflete as influências culturais dos muitos impérios que já governaram a região</p>
+                    <p><a class="btn btn-secondary" href="#">Descobrir</a></p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <img src="https://www.onde-e-quando.net/site/images/illustration/marrakech_707.jpg" class="bd-placeholder-img rounded border-2 border-white" width="140" height="140" />
+                    <h2>1º - Marrakech</h2>
+                    <p>Marrakesh, uma antiga cidade imperial situada no oeste de Marrocos, é um importante centro econômico e conta com mesquitas, palácios e jardins.</p>
+                    <p><a class="btn btn-secondary" href="#">Descobrir</a></p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-s/16/dc/c4/4a/cambodia-angkor-wat-siem.jpg" class="bd-placeholder-img rounded border-2 border-white" width="140" height="140" />
+
+                    <h2>2º - Siem Reap</h2>
+                    <p>Siem Reap, cidade turística no noroeste do Camboja, é a porta de entrada para as ruínas de Angkor, sede do reino do Khmer entre os séculos 9 e 15</p>
+                    <p><a class="btn btn-secondary" href="#">Descobrir</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <br />
+        </div>
+    </main>
+    <footer id="actionBar">
+        <div class="form-group">
+            <div class="input-group  input-group-md">
+                <input id="main-search-input" type="search" class="form-control" placeholder="Digite o destino que deseja" aria-label="Digite o destino que deseja" aria-describedby="button-addon2">
+                <!--<button class="btn btn-primary" type="button" id="main-search-btn">Consultar</button>-->
+            </div>
+        </div>
+    </footer>
+
+    <script src="libs/bootstrap/bootstrap/js/bootstrap.min.js"></script>
+    <script src="libs/placeSearch/placesearch.js"></script>
+    <script type="text/javascript">
+        window.onload = function () {
+            placeSearch({
+                key: 'BVmXZXwfJVPVbf0YONskoLg7eaIFJGLm',
+                container: document.querySelector('#main-search-input'),
+                useDeviceLocation: true,
+                collection: [
+                    'poi',
+                    'airport',
+                    'address',
+                    'adminArea',
+                ]
+            });
+        }
+    </script>
+</body>
+</html>
