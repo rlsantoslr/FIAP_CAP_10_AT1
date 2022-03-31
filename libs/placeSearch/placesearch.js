@@ -1,11 +1,14 @@
-﻿/*!
+/*!
  * place-search-js-v1.0.0
  * Copyright 2018, MapQuest Inc. All Rights Reserved.
  * Copying, reverse engineering, or modification is strictly prohibited.
  */
 
 const head = {
-    "Access-Control-Allow-Methods": "OPTIONS,GET,POST",
+    'Access-Control-Allow-Origin': "*",
+    "Access-Control-Allow-Methods": "POST, PUT, DELETE, GET, OPTIONS",
+    'Access-Control-Request-Method': '*',
+    'Access-Control-Allow-Headers': 'Origin',
     'Accept': "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
 };
 
