@@ -5,10 +5,10 @@
  */
 
 const head = {
-    'Access-Control-Allow-Origin': "*",
-    "Access-Control-Allow-Methods": "POST, PUT, DELETE, GET, OPTIONS",
-    'Access-Control-Request-Method': '*',
-    'Access-Control-Allow-Headers': 'Origin',
+    'access-control-allow-origin': "*",
+    //"Access-Control-Allow-Methods": "POST, PUT, DELETE, GET, OPTIONS",
+    //'Access-Control-Request-Method': '*',
+    //'Access-Control-Allow-Headers': 'Origin',
     'Accept': "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
 };
 
@@ -266,6 +266,7 @@ const head = {
                             var e = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {
                             };
                             return this._settings.apiKey ? fetch(t, i()({
+                                headers: head
                             }, head, e)).then(function (t) {
                                 return t.ok ? t : s.a.reject(t)
                             }) : s.a.reject(new Error(h))
