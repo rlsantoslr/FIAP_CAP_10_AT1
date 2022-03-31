@@ -9,4 +9,7 @@ Ela está sendo utilizada na barra de pesquisa localizada na parte inferior da t
 NOTA: A API possui um pequeno delay no momento de carregar e solicitar permissão para utilização da geolocalização no navegador. 
 
 
+O site pode ser acessado via essa URL: https://rlsantoslr.github.io/FIAP_CAP_10_AT1/index.html
+
+
 
